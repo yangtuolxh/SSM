@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.happy.dao.ProductMapper" >
+
+  <select id="selectProduct" resultType="cn.happy.model.Product">
+    SELECT  * FROM  product 
+
+  </select>
+  <select id="selectAProduct" resultType="cn.happy.model.Product" parameterType="int">
+    SELECT  * FROM  product WHERE id=#{id}
+
+  </select>
+  <update id="updateProduct" parameterType="cn.happy.model.Product">
+    UPDATE  product SET quantity=quantity-#{quantity} WHERE id=#{id}
+  </update>
+</mapper>

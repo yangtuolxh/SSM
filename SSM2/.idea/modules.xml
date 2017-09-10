@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01SSM/01SSM.iml" filepath="$PROJECT_DIR$/01SSM/01SSM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02SSM/02SSM.iml" filepath="$PROJECT_DIR$/02SSM/02SSM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02easyui20170827/02easyui20170827.iml" filepath="$PROJECT_DIR$/02easyui20170827/02easyui20170827.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03SSM/03SSM.iml" filepath="$PROJECT_DIR$/03SSM/03SSM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SSM2.iml" filepath="$PROJECT_DIR$/SSM2.iml" />
+    </modules>
+  </component>
+</project>
